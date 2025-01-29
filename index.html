@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-xl font-bold">Ajay's Portfolio</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-blue-500 text-white">
+        <h2 class="text-4xl font-bold">Hi, I'm Ajaykumar</h2>
+        <p class="mt-4 text-lg">Full-Stack Developer | React | Java | Spring Boot</p>
+        <button class="mt-6 px-6 py-2 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-200"><a href="ajay-resume.pdf" download>Download Resume</a></button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">About Me</h2>
+            <p class="mt-4 max-w-2xl mx-auto">I am a passionate Full-Stack Developer specializing in modern web technologies. I love building scalable applications and solving real-world problems.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="bg-gray-200 py-16 px-6">
+  <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold">Projects</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+
+          <!-- Employee Management System -->
+          <div class="bg-white p-6 rounded-lg shadow-md text-left">
+              <h3 class="text-xl font-bold">Employee Management System</h3>
+              <p class="mt-2">
+                  Project: Employee Management System |
+                  <a href="https://github.com/AjayKumar049/Employee-Management-App" class="text-blue-600 underline">
+                      GitHub Repository Link
+                  </a>
+              </p>
+              <ul class="list-disc list-inside mt-4 space-y-2">
+                  <li>Implemented core features such as adding, deleting, editing, and viewing employee records using Spring Boot, ReactJS, and Tailwind CSS.</li>
+                  <li>Resolved server configuration issues and optimized the application for performance.</li>
+                  <li>Integrated PostgreSQL for efficient data storage and retrieval.</li>
+                  <li>Utilized Postman for API testing.</li>
+              </ul>
+          </div>
+
+          <!-- GitHub User Search Project -->
+          <div class="bg-white p-6 rounded-lg shadow-md text-left">
+              <h3 class="text-xl font-bold">GitHub User Search App</h3>
+              <p class="mt-2">
+                  Project: GitHub User Search App |
+                  <a href="https://github.com/AjayKumar049/Fetch-API" class="text-blue-600 underline">
+                      GitHub Repository Link
+                  </a>
+              </p>
+              <ul class="list-disc list-inside mt-4 space-y-2">
+                  <li>Built a ReactJS-based application that fetches real-time GitHub user data.</li>
+                  <li>Users can search for a GitHub username and see details like joined date, Total Repositories, Location , and avatar.</li>
+                  <li>Implemented API fetching using the GitHub REST API.</li>
+                  
+              </ul>
+          </div>
+
+      </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Contact Me</h2>
+            <p class="mt-4">Email: <a href="mailto:ajaykumarwade@gmail.com" class="text-blue-600">ajaykumarwade@gmail.com</a></p>
+            <p class="mt-2">LinkedIn: <a href="https://www.linkedin.com/in/ajay-wade-b48214222/" class="text-blue-600">Ajay</a></p>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 Ajay. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
